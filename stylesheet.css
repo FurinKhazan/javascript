@@ -1,0 +1,70 @@
+.main-page {
+	color: #fff;
+}
+
+*{
+	box-sizing: border-box;
+}
+html, body,
+div {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 70px;
+  width: 100%;
+  background-color: rgba(0,157,255,0.4);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.logo {
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  
+}
+
+.header-right a {
+  font-family: "montserrat";
+  font-weight: bold;
+  line-height: 65px;
+  padding: 0 10px;
+  color: black;
+  display: block;
+  float: left;
+  transition: all 0.25s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 148, 33, 0.9);
+}
+
+.menu-icon {
+  color: black;
+  float: right;
+  font-size: 35px;
+  padding: 21px 0;
+  display:none;
+}
+
+
+
+
